@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+
+nav{
+    margin-top: 12px;
+    width: 100%;
+    display:inline-block;
+}
+
+.right ul{
+    list-style: none;
+    float: right;
+    display: flex;
+}
+
+li{
+    padding: 10px;
+    display:inline-block;
+}
+
+li a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    border-radius: 4px;
+    margin: 0;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+.front a{
+    padding: 0;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.icon:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.signin a{
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 25.5px;
+    margin-right: 8px;
+    font-size: 14.5px;
+    margin-left: 8px;
+}
+
+.signin a:hover{
+    text-decoration: none;
+    background-color: rgb(32, 116, 243);
+}
+
+.wrapper{
+    text-align: center;
+    margin-top: 30px;   
+}
+
+.wrapper img{
+    height:150px;
+}
+
+.bar{
+    margin:45px auto;
+    width:575px;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+}
+
+.bar:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.searchbar{
+    padding: 5px;
+    height: 30px;
+    border:none;
+    width:500px;
+    font-size:16px;
+    outline: none;
+}
+
+.bar img{
+    height:20px;
+    position:relative;
+    top:5px;
+}
+
+.data{
+    margin-top: 5px auto;
+}
+
+.datacon{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    border-radius:4px;
+    border: none;
+    margin: 0px 5px;
+}
+
+.datacon a{
+  color: rgba(0,0,0,0.87);
+  font-size:13px;
+    text-decoration: none;
+}
+
+.datacon:hover{
+    border: 1px solid #c8c8c8;
+  color:#808080;
+}
+
+.lang ul{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.lang ul li{
+    list-style: none;
+    font-size: 12px;
+    color: #032552;
+    padding: 2px;
+}
+
+footer{
+    background-color: #b3aeae41;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+.right{
+    float: right;
+}
+
+.foot{
+    padding: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.19);
+}
+
+footer li{
+    padding: 10px;
+    color: rgba(0,0,0,.54);
+}
+
+footer li a{
+    padding: 10px;
+    color: rgba(0,0,0,.54);
+}
